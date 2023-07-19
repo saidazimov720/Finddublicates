@@ -1,6 +1,6 @@
-function findDuplicates() {
+function takrorlanuvchi() {
   var input = document.getElementById("arrayInput").value;
-  var arr = input.split(",");
+  var arr = input.split(" ");
   var counts = {};
 
   for (var element of arr) { 
