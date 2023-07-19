@@ -1,5 +1,5 @@
 function takrorlanuvchi() {
-  var input = document.getElementById("arrayInput").value;
+  var input = document.getElementById("array").value;
   var arr = input.split(" ");
   var counts = {};
 
