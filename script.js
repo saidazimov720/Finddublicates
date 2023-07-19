@@ -1,25 +1,17 @@
 function findDuplicates() {
-  // Get the input value and split it into an array
   var input = document.getElementById("arrayInput").value;
   var arr = input.split(",");
-
-  // Create an object to store element counts
   var counts = {};
 
-  // Iterate over the array using a for...of loop
-  for (var element of arr) {
-    // Trim the element to remove any leading/trailing spaces
+  for (var element of arr) { 
     element = element.trim();
 
-    // Increment the count for the element in the object
     if (counts[element]) {
       counts[element]++;
     } else {
       counts[element] = 1;
     }
   }
-
-  // Find duplicates and display the result
   var resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "<h3>Duplicate Elements:</h3>";
 
