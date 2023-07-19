@@ -1,4 +1,4 @@
-const array = [1, 2, 3, 2, 5, 1, 6, 7, 6, 8, 9];
+const array = [1, 2, 3, 2, 5, 1, 6, 7, 6, 8, 9,5, 4, 8, 7, 1];
   const takror = Takrorlanuvchi(array);
 
 function Takrorlanuvchi(arr) {
